@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reparaciones SYSTEM "reparaciones.dtd">
+<reparaciones>
+<reparacion>
+<vehiculo>
+<matricula></matricula>
+<marca></marca>
+<modelo></modelo>
+</vehiculo>
+<trabajoRealizado>
+<descripcion></descripcion>
+<duracion></duracion>
+</trabajoRealizado>
+<factura>
+<cod></cod>
+<totalAPagar></totalAPagar>
+<modoPago></modoPago>
+</factura>
+</reparacion>
+</reparaciones>
