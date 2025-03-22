@@ -11,7 +11,8 @@
 		<planeta>Tierra</planeta>
 
 		<satelite>Luna</satelite>
-	
+	</cuerpo> 
+	<cuerpo>
 	<asteroide>Ceres</asteroide>
     </cuerpo>
 </sistemaSolar> 
