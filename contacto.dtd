@@ -1,10 +1,12 @@
+<!ENTITY % datosDir "(calle,cp,ciudad)">
+<!ENTITY % datosContacto "(telf,movil,mail)">
 <!ELEMENT contacto (nombre,dir,datosCon)>
 <!ELEMENT nombre (#PCDATA)>
-<!ELEMENT dir (calle,cp,ciudad)>
 <!ELEMENT calle (#PCDATA)>
 <!ELEMENT cp (#PCDATA)>
 <!ELEMENT ciudad (#PCDATA)>
-<!ELEMENT datosCon (telf,movil,mail)>
+<!ELEMENT dir (%datosDir;)>
 <!ELEMENT telf (#PCDATA)>
 <!ELEMENT movil (#PCDATA)>
 <!ELEMENT mail (#PCDATA)>
+<!ELEMENT datosCon (%datosContacto;)>
